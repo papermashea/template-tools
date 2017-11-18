@@ -1,0 +1,56 @@
+/*----- overall style references -----*/
+
+@font-face {
+  font-family: 'AdobeClean';
+  font-style: normal;
+  src: url('../fonts/AdobeClean/AdobeClean-Regular.otf');
+}
+
+@font-face {
+  font-family: 'AdobeCleanLight';
+  font-style: normal;
+  src: url('../fonts/AdobeClean/AdobeClean-Light.otf');
+}
+
+@font-face {
+  font-family: 'AdobeCleanBold';
+  font-style: normal;
+  src: url('../fonts/AdobeClean/AdobeClean-Bold.otf');
+}
+
+/*----- actual page styles -----*/
+
+.jumbotron {
+	background-image: url('../images/templates.png');
+}
+
+.jumbotron .container {
+	background-color: rgba(255,255,255,.85);
+}
+
+h1 {
+  font-family: 'AdobeClean-Bold';
+}
+
+h2 {
+	font-family: 'AdobeClean-Regular'
+}
+
+p {
+	font-family: 'AdobeClean-Light';	
+}
+
+a.btn-default {
+	background-color: transparent;
+	border-color: rgba(52,142,232,1);
+	color: rgba(52,142,232,1);
+	font-family: 'AdobeClean-Regular';
+}
+
+a.btn-default:hover {
+		background-color: rgba(52,142,232,1);
+}
+
+a.btn-default:hover {
+		color: rgba(255,255,255,1);
+}
