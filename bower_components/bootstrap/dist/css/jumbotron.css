@@ -3,3 +3,14 @@ body {
   padding-top: 50px;
   padding-bottom: 20px;
 }
+
+@font-face {
+  font-family: 'AdobeClean';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/AdobeClean/AdobeClean-Light.otf');
+}
+
+h1 {
+  font-family: serif;
+}
